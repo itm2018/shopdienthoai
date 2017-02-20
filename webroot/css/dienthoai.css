@@ -1,0 +1,15 @@
+.thumbnail > img, .thumbnail a > img {
+    max-height: 160px;
+}
+.success{
+    color: #3ad156;
+}
+.error{
+    color: #e23424;
+}
+.warning{
+    color: #f2ca52;
+}
+.dienthoai-img img{
+    max-width: 300px;
+}

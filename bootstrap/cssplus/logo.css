@@ -1,0 +1,93 @@
+/* CSS Document */
+#logo {
+	background-color:#C6F;
+	width:457px;
+	}
+	
+header{
+  .logo{
+    h1{
+      font-size: 25px;
+    }
+  }
+  .search{
+    padding:45px;
+  }
+}
+#wrapper{
+  .content{
+    .slider{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .box-index{
+      h2{
+        text-transform: uppercase;
+        font-size: 23px;
+        color: #444;
+        border-bottom: 3px solid #EEE;
+        position: relative;
+        margin-bottom: 20px;
+        padding: 5px 0;
+        &::before{
+          content: "";
+          display: block;
+          width: 70px;
+          background: #2673BB none repeat scroll 0% 0%;
+          height: 3px;
+          position: absolute;
+          bottom: -2px;
+          left: 0px;
+        }
+      }
+      .item{
+        margin-bottom: 20px;
+        h3{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .sidebar{
+    .sidebar-item{
+      margin-bottom: 80px;
+      h4.widget-title{
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #444;
+        border-bottom: 0px solid #EEE;
+        position: relative;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 1px 0;
+        &::before{
+          content: "";
+          display: block;
+          width: 70px;
+          background: #2673BB none repeat scroll 0% 0%;
+          height: 3px;
+          position: absolute;
+          bottom: -2px;
+          left: 0px;
+        }
+      }
+      .textwidget{
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+footer{
+  background: #2E2E2E;
+  color: #fff;
+  padding: 20px;
+}
+#kc{ padding-left:5px;
+}
+#text { text-align:center;
+}
